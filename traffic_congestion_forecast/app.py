@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import joblib
 import sqlite3
 
-app = Flask(__name__)a
+app = Flask(__name__)
 
 # Modeli yükle
 model = joblib.load("model.pkl")
